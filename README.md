@@ -7,7 +7,6 @@ It serves as a good starting point when following the different Laravel in Kuber
 ## Prerequisites
 
 * Composer > 2.2.X
-* Docker
 
 ## Installation
 
@@ -22,16 +21,15 @@ After setting up a database and filling the correct credentials in `.env`
 php artisan migrate
 ```
 
-Run the development server to enable hot-module replacement
-```shell
-npm run dev
-```
-
 ## Running the application
 
 You can run this codebase in the standard Laravel ways
-
 ```shell
 # Directly
 php artisan serve
+```
+
+Run the development server to enable hot-module replacement
+```shell
+npm run dev
 ```
