@@ -22,6 +22,11 @@ After setting up a database and filling the correct credentials in `.env`
 php artisan migrate
 ```
 
+Run the development server to enable hot-module replacement
+```shell
+npm run dev
+```
+
 ## Running the application
 
 You can run this codebase in the standard Laravel ways
